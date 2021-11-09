@@ -1,0 +1,244 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    min-width: 1610px;
+    
+}
+
+h1{
+    
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    padding: 15px;
+    margin: 0px;
+    background-color: #041E42;
+    
+}
+
+.clock{
+    
+    width: 2000px;
+    padding: 20px;
+    text-align: center;
+    color: #ffff;
+    position: absolute;
+    font-size: 180px;
+    bottom: 281px;
+    left: -106px;
+}
+
+#its{
+    text-align: center;
+    color: #ffff;
+    position: absolute;
+    font-size: 90px;
+    bottom: 615px;
+    left: 827px;
+}
+.svck{
+    text-align: center;
+    color: #ffff;
+    position: absolute;
+    font-size: 90px;
+    bottom: 247px;
+    left: 394px;
+}
+
+.layer{
+    background: rgb(27 38 90 / 62%);
+    bottom: 4px;
+    left: 0px;
+    width: 1845px;
+    height: 1023px;
+    padding: 20px;
+    position: absolute;
+}
+#bgvideo{
+    height: 15%;
+    position: relative;
+}
+
+#psu-video{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin: 0px;
+}
+#P5{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: white;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-color: rgb(247, 244, 244);
+    border: 3px;
+    border-style: solid;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    background-image: linear-gradient(to bottom,#002e69 0,#001e44 65%,#001e44 100%);
+}
+#canvas-container{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#just-for-align{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+    position: relative;
+    left: 200px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #041E42;
+    margin-bottom: 10px;
+}
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #041E42;;
+    width: 600px;
+    width: 800px;
+    
+}
+
+#WE{
+    color: #ffff;
+    font-size: 200px;
+    position: absolute;
+    left: -426px;
+    bottom: -106px;
+
+}
+
+#ARE{
+    color: #ffff;
+    font-size: 200px;
+    position: absolute;
+    left: 837px;
+    bottom: -106px;
+}
+.chat-input{
+    
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+#align2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 28%;
+    left: -10%;
+    transform: rotate(355deg);
+    max-width: 1200px;
+}
+#sub-content{
+    display: flex;
+    flex-direction: row;
+    
+    height: 15%;
+    position: relative;
+}
+
+#campus-tour{
+    width: 940px;
+    height: 430px;
+    text-align: center;
+    background-color: #041E42;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    position: relative;
+}
+#descVid{
+    font-size: 30px;
+    position: absolute;
+    color: #ffff;
+    left:367px;
+    bottom: -4px;
+}
+
+#ytb{
+    position: absolute;
+    left: 250px;
+    top: 40px;
+}
+
+#lion-records{
+    width: 940px;
+    height: 430px;
+    text-align: center;
+    background-color: #041E42;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    position: relative;
+}
+
+#paw{
+    max-width: 150px;
+    max-height: 120px;
+    position: absolute;
+    left: 602px;
+    
+    bottom: 146px;
+}
+#vistorNo{
+    color: #ffff;
+    text-align: center;
+    font-size: 200px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+#descNo{
+    color: #ffff;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+input{
+    display: inline;
+    padding: 5px;
+    margin: 10px 10px 0 0;
+    height: 20px;
+}
+.chat-input-name {
+    width: 60px;
+}
+.chat-input-msg{
+    width:240px
+}
+button{
+    height: 28px;
+    margin-top: 10px;
+    width: 100px;
+    position: relative;
+    left: 190px;
+}
+.chat-header{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+ 
+}
+
+
+@media (max-width: 800px) {
+    .sub-container {
+        width: 75%;
+    }
+}
